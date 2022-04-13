@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: Montserrat , sans-serif;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* sidebar-section */
+.sidebar-section{
+    /* background-color: #1E2939; */
+    background: rgba( 5, 5, 36, 1 );
+    color: white;
+    padding: 40px 0;
+    width: 370px;
+}
+    img{
+        width: 370px
+    }
+
+    .contact-section,.tech-skills-section,.soft-skills-section{
+        margin: 50px 0 47px 40px;
+    }
+
+    .sidebar-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+    } 
+
+    .tech-skills-list,.soft-skills-list{
+        padding: 0 0 0 17px;
+        color: #FB6D3A;
+    }
+
+    .tech-skills-item span,.soft-skills-item span{
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+      /* contact-section */
+    .contact-section-type{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }     
+    .contact-section-link{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+        opacity: 0.5;
+        margin-left: 10px;
+    }
+    .contact-section-link-decor{
+        text-decoration: none;
+    }
+
+/* Main content section */
+
+    .main-content-section{
+        padding-top: 88px;
+        padding-left: 98px;
+    }
+
+        /* About me section */
+        .about-me-section{
+            margin-bottom: 40px;
+        }
+            .about-me-profession{
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                margin-bottom: 19px;
+                margin-top: 0;
+            }
+            .about-me-name{
+                font-weight: 700;
+                font-size: 45px;
+                line-height: 55px;
+                margin: 0;
+
+            }
+            .about-me-description{
+                width: 400px;
+                font-size: 14px;
+                line-height: 24px;
+                color: #595959;
+                margin-top: 24px;
+            }
+
+             /* my project section */
+             .my-project-section{
+                 margin-bottom: 51px;
+             }
+                .my-project-title{
+                    font-size: 22px;
+                    line-height: 27px;
+                    margin-bottom: 8px;
+                }
+                .my-project-list{
+                    padding-left:16px;
+                    font-weight: bold;
+                }
+                    .my-project-item{
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                        .my-project-link{
+                            text-decoration: none;
+                            color: #595959;
+                            font-weight: normal;
+                        }
+                            .my-project-link b{
+                                color: black;
+                            }
+            /* my work experience section */
+            .work-experience-section{
+                margin-top: 0;
+            }
+            .work-experience-title, .education-title{
+                font-size: 22px;
+                line-height: 27px;
+                margin-bottom: 12px;
+            }
+                /* companys */
+                .company-1-title, .company-2-title,/*TODO:*/.company-3-title{
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+                    .company-1-title span, .company-2-title span, /*TODO:*/ .company-3-title span{
+                        color: #FB6D3A;
+                    }
+                .company-1-date, .company-2-date, /*TODO:*/ .company-3-date{
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #A8A8A8;
+                    margin-top: 11px;
+                }
+                    .company-1-date b, .company-2-date b, /*TODO:*/ .company-3-date b{
+                        color: black;
+                        font-weight: normal;
+                    }
+                .company-1-list, .company-2-list, /*TODO:*/.company-3-list{
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #595959;
+                    padding-left:16px;
+                    margin-bottom: 16px;
+                    margin-right: 197px;        
+                }
+
+            /* Education */
+                .education{
+                    margin-top: 43px;
+                    margin-bottom: 111px;
+                }
+                .education-universitie{
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    color: #FB6D3A;
+                }
+                .education-course{
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 17px;
+                    margin-top: 11px;
+                    margin-bottom: 0;
+                }
+
+                .education-date{
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #A8A8A8;
+                    margin-top: 11px;
+                }
